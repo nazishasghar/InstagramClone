@@ -67,7 +67,7 @@ struct HeaderModifier : ViewModifier {
         .foregroundColor(.black)
         .frame(width:25,height:25)
         .aspectRatio(contentMode: .fit)
-        .padding(.horizontal,10)
+        .padding(.horizontal,9)
     }
 }
 struct ProfileCircle : ViewModifier {
@@ -84,3 +84,4 @@ struct ContentView_Previews: PreviewProvider {
         InstagramHomeView()
     }
 }
+
